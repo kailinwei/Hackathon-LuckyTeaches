@@ -3,8 +3,9 @@ import './css/wash.css';
 import { Component } from "react";
 import { washStepData } from "./data";
 
-var i=0 ;
-
+var i = 0 ;
+const sounds = ['./sounds/running.wav', './sounds/remember.wav', './sounds/lather.wav', './sounds/scrub.wav', './sounds/fingers.wav', './sounds/nails.wav', './sounds/wrists.wav', './sounds/seconds.wav', './sounds/rinse.wav', './sounds/dry.wav']
+const audio = (sound) => new Audio(sound).play()
  
 export class Wash extends Component {
   state = {
@@ -25,6 +26,10 @@ export class Wash extends Component {
       return
     }
   };
+
+  isSound = () => {
+    audio(sounds[i]);
+  };
   render() {
     return (
         <div className="WashContainer">
@@ -39,6 +44,7 @@ export class Wash extends Component {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
             </iframe>
           <p onClick={() => this.nextStep()} className="next">➡</p>
+          <p onClick={this.isSound} className="sound">▶</p>
         </div>
     );
   }

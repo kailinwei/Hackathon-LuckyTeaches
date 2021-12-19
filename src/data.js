@@ -16,7 +16,7 @@ export const washStepData = [
     media: "images/wash_d.svg",
   },
   {
-    instruction: "and between your fingers too!",
+    instruction: "and inbetween your fingers too.",
     media: "images/wash_e.svg",
   },
   {
