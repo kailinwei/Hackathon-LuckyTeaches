@@ -4,7 +4,7 @@ export const washStepData = [
     media: "../images/wash_j.svg",
   },
   {
-    instruction: "Remeber to turn off the tap after.",
+    instruction: "Remember to turn off the tap after.",
     media: "../images/wash_b.svg",
   },
   {
