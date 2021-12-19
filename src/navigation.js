@@ -7,6 +7,7 @@ import Lessons from './lessons';
 import House from './assets/icons/home.svg';
 import Pencil from './assets/icons/lessons.svg';
 import Wash from './App';
+import Recycle from './recycle';
 
 export default function Navigation() {
     return (
@@ -29,7 +30,8 @@ export default function Navigation() {
                 <Routes>
                     <Route exact path="/" element={<Home />} /> 
                     <Route path="/lessons/" element={<Lessons />} /> 
-                    <Route path="/wash_our_hands" element={<Wash />} /> 
+                    <Route path="/wash_our_hands/:param" element={<Wash />} />
+                    <Route path="/recycle_together" element={<Recycle />} />
                 </Routes>
             </ul>
         </nav>

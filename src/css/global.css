@@ -13,10 +13,25 @@ ul {
     list-style: none;
 }
 
-p {
+p,
+a {
     font-family: 'Patua One', cursive;
     font-size: 2.25rem;
     color: #42210B;
+}
+
+#lessons a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#lessons li {
+    text-align: center;
+    background-color: #FFDC60;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin-bottom: 1rem;
+    border: 3px solid #42210B;
+    border-radius: 15px;
 }
 
 img {  

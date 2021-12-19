@@ -8,3 +8,29 @@
     background-size: cover;
     z-index: -5;
 }
+
+
+#lessons a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#lessons li {
+    text-align: center;
+    background-color: #92FED7;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin-bottom: 1rem;
+    border: 3px solid #42210B;
+    border-radius: 15px;
+}
+
+.links {
+    margin-top: 18%;
+}
+
+#lessons .complete {
+    background-color: #FFDC60;
+    font-family: 'Patua One', cursive;
+    font-size: 1.5rem;
+    color: #42210B;
+}
