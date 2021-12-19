@@ -1,0 +1,18 @@
+.WashContainer{
+    background-color: #FFFDCB;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(812px - 94px);
+    z-index: -5;
+}
+
+.instructions {
+    text-align: center;
+    width:360px;
+    height:200px;
+}
