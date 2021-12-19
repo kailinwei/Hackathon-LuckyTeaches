@@ -1,6 +1,6 @@
 # Lucky Teaches
-## Website: https://hackathon-lukyteaches.herokuapp.com/
-## Figma: https://www.figma.com/file/edkRpJtJaSmLEtAJj593dK/Hackathon-Winter-2021?node-id=0%3A1
+**Website: https://hackathon-lukyteaches.herokuapp.com/**
+**Figma: https://www.figma.com/file/edkRpJtJaSmLEtAJj593dK/Hackathon-Winter-2021?node-id=0%3A1**
 
 It's been a difficult time for parents during the pandemic. Many schools around the world have been in lockdown; thus, children have been continuing their studies at home. Imagine how difficult it is to be a parent during this period.
  
@@ -20,7 +20,7 @@ Although parents may want to provide their children with more support to facilit
 - Express.js
 - Node.js
 
-***Team***
+## 👋 Team
 Linda Ngoc Nguyen
 https://www.linkedin.com/in/iflinda/
 
