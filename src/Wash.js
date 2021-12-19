@@ -15,7 +15,7 @@ export class Wash extends Component {
   
   nextStep = (n) => {
     const length = washStepData.length;
-    if (i <= length) {
+    if (i < length) {
       console.log(washStepData[i]);
       this.setState({
         instruction: washStepData[(i = i +1)].instruction,
@@ -28,22 +28,19 @@ export class Wash extends Component {
   };
   render() {
     return (
-      <>
         <div className="WashContainer">
-          <p>{this.state.instruction}</p>
-          <img className="washImg" src={this.state.media} alt="Lots of bubbles being lathered on a pair of hands."></img>
-  
+          <p className="instructions">{this.state.instruction}</p>
+          <img className="washImg" src={this.state.media} alt="Lots of bubbles being lathered on a pair of hands." />
           <iframe
             width="50vw"
             height="50vh"
             src={this.state.video}
             title="YouTube video player"
             frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          ></iframe>
-          <img className="fingerImg" alt="A hand with the pointer finger sticking out" src="/images/finger.svg" onClick={() => this.nextStep()}></img>
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+            </iframe>
+          <p onClick={() => this.nextStep()} className="next">➡</p>
         </div>
-      </>
     );
   }
 }

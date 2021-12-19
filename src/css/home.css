@@ -1,8 +1,8 @@
 #index {
     position: fixed;
     top: 0;
-    width: 375px;
-    height: 812px;
+    width: 100%;
+    height: 100%;
     background-image: url('../assets/images/backgrounds/bedroom.svg');
     background-repeat: no-repeat;
     background-size: cover;

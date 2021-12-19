@@ -15,16 +15,14 @@ export default function Navigation() {
         aria-label="main navigation"
         >
             <ul id="navigation">
-                <li key="home">
                     <Link to="/">
                         <li key="home">
-                            <img src={House} alt="A shiny golden home icon."/>
+                            <img className="icons" src={House} alt="A shiny golden home icon."/>
                         </li>
                     </Link>
-                </li>
                 <Link to="/lessons">
                     <li key="lessons">
-                        <img src={Pencil} alt="A shiny golden pencil icon." />
+                        <img className="icons" src={Pencil} alt="A shiny golden pencil icon." />
                     </li>
                 </Link>
                 <Routes>

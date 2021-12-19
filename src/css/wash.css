@@ -1,25 +1,18 @@
 .WashContainer{
+    background-color: #FFFDCB;
+    position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-     padding: 1vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(812px - 94px);
+    z-index: -5;
 }
 
-.p{
+.instructions {
     text-align: center;
     width:360px;
-    height:90px;
+    height:200px;
 }
-
-img.washImg{
-width:300px;
-height:400px;
-border-radius: 50px;
-}
-
-
-img.fingerImg{
-    width:100px;
-    height:100px;
- }
