@@ -9,6 +9,7 @@ import Message from './message.js';
 import Lucky from './assets/images/lucky/reading.svg';
 import {Wash} from './Wash';
 import {Country} from "./country"
+import{Recycle } from "./recycle"
 //import './App.css';
 ReactDOM.render(
   <Router>
@@ -16,7 +17,8 @@ ReactDOM.render(
       <img id="lucky" src={Lucky} alt="Lucky the corgi reading a book." />
     </div>
     <Message /> */}
-    <Country />
+    {/* <Country /> */}
+    <Recycle />
     {/* <Wash /> */}
     <Navigation />
   </Router>,

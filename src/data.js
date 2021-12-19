@@ -4,7 +4,7 @@ export const washStepData = [
     media: "images/wash_a.svg",
   },
   {
-    instruction: "Remeber to trun off the tap",
+    instruction: "Remeber to turn off the tap",
     media: "images/wash_b.svg",
   },
   {
@@ -73,5 +73,25 @@ export const flagData = [
     name:"Brazil",
     media:"images/brazil.svg",
   }
+
+]
+
+export const recycleData =[
+  {
+    name:"Paper Recycling Bin",
+    media:"images/paper_a.svg"
+  },
+  {
+    name:"Organic Recycling & Composting Bin",
+    media:"images/organic_a.svg"
+  },
+  {
+    name:"Glass Recycling Bin",
+    media:"images/glass_a.svg"
+  },
+  {
+    name:"Plastic Recycling Bin",
+    media:"images/plastic_a.svg"
+  },
 
 ]
