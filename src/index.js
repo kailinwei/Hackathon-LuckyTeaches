@@ -8,6 +8,7 @@ import Navigation from './navigation.js';
 import Message from './message.js';
 import Lucky from './assets/images/lucky/reading.svg';
 import {Wash} from './Wash';
+import {Country} from "./country"
 //import './App.css';
 ReactDOM.render(
   <Router>
@@ -15,7 +16,8 @@ ReactDOM.render(
       <img id="lucky" src={Lucky} alt="Lucky the corgi reading a book." />
     </div>
     <Message /> */}
-    <Wash />
+    <Country />
+    {/* <Wash /> */}
     <Navigation />
   </Router>,
   document.getElementById('root')

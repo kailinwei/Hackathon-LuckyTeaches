@@ -51,3 +51,27 @@ export const washStepData = [
     media: "images/flyingDog.svg",
   },
 ];
+
+export const flagData = [
+  {
+    name:"Canada",
+    media:"images/canada.svg",
+  },
+  {
+    name:"United States",
+    media:"images/USA.svg",
+  },
+  {
+    name:"Vietnam",
+    media:"images/viet.svg",
+  },
+  {
+    name:"China",
+    media:"images/china.svg",
+  },
+  {
+    name:"Brazil",
+    media:"images/brazil.svg",
+  }
+
+]
