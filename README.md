@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Lucky Teaches
+## Website: https://hackathon-lukyteaches.herokuapp.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's been a difficult time for parents during the pandemic. Many schools around the world have been in lockdown; thus, children have been continuing their studies at home. Imagine how difficult it is to be a parent during this period.
+ 
+Currently, children attend school and study online for an hour or two a day (link). For young children (ages 6-10), *how do we provide additional support to further their knowledge?*
+ 
+Although parents may want to provide their children with more support to facilitate learning, it may not always be possible. Many children have access to mobile phones, tablets, and computers. However, it's hard to monitor the quality of the content that children are consuming (link). If this is the case, then *what is a good digital resource that can be used to help your children play and learn?*
+ 
+**We are here to help.**
 
-## Available Scripts
+**Lucky Teaches** is a free online and educational solution for children between the ages of 6-10. We focus on providing engaging lessons targeting knowledge gaps that are often overlooked in school. These topics include public health safety (Covid-19 precautions), understanding cultural diversity, the importance of our environment, and more. We do this by implementing short lessons that feature interactive characters and videos. We want children to learn organically through playing.
 
-In the project directory, you can run:
+***Team***
+Linda Ngoc Nguyen
+https://www.linkedin.com/in/iflinda/
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Kailin Wei
+https://www.linkedin.com/in/kailin-wei/
