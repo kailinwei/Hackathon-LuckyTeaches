@@ -11,17 +11,27 @@ const sounds = ['./sounds/hi.wav', './sounds/name.wav', './sounds/learn.wav', '.
 let audio = (sound) => new Audio(sound).play()
 
 export default class Message extends Component {
-    isIntroduction () {
-        if (!introduction && index === 0) {
-                <div>
-                    <p>{this.text}</p>
-                    <p onClick={this.isClick()} className="next">➡</p>
-                </div>
-        }
-    }
-
     state = {
         text: texts[index]
+    }
+
+    isIntroduction = () => {
+        if (!introduction) {
+            return (
+                <div className="box">
+                    <p>{this.state.text}</p>
+                    <p onClick={this.isClick} id="button" className="next">➡</p>
+                    <p onClick={this.isSound} className="sound">▶</p>
+                </div>
+            )
+        } else {
+            return ( 
+                <div className="box">
+                    <p>{this.state.text}</p>
+                    <p onClick={this.isSound} className="sound">▶</p>
+                </div>
+            )
+        }
     }
 
     isClick = () => {
@@ -30,6 +40,10 @@ export default class Message extends Component {
             this.setState({
                 text: texts[index]
             })
+        } else {
+            introduction = true;
+            let element = document.getElementById('button');
+            element.style.visibility = 'hidden';
         }
     }
     
@@ -40,11 +54,7 @@ export default class Message extends Component {
     render() {
         return(
             <section id="message">
-                <div className="box">
-                    <p>{this.state.text}</p>
-                    <p onClick={this.isClick} className="next">➡</p>
-                    <p onClick={this.isSound} className="sound">▶</p>
-                </div>
+                {this.isIntroduction()}
             </section>
         );
     }

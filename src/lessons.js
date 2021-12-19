@@ -15,7 +15,7 @@ function isComplete(index, key, title, link) {
             )
     } else {
         return (
-        <Link to={`${link}/:${completedLessons}`}>
+        <Link to={`${link}/${completedLessons}`}>
             <li key={key}>
                 {title}
             </li>
