@@ -2,6 +2,8 @@
 ### Website: https://hackathon-lukyteaches.herokuapp.com/
 ### Figma: https://www.figma.com/file/edkRpJtJaSmLEtAJj593dK/Hackathon-Winter-2021?node-id=0%3A1
 
+![Screenshot](https://pasteboard.co/fetE4TGli9Qc.png)
+
 **Lucky Teaches** is a free online and educational solution for children between the ages of 6-10. We focus on providing engaging lessons targeting knowledge gaps that are often overlooked in school. These topics include public health safety (Covid-19 precautions), understanding cultural diversity, the importance of our environment, and more. We do this by implementing short lessons that feature interactive characters and videos. We want children to learn organically through playing.
 
 It's been a difficult time for parents during the pandemic. Many schools around the world have been in lockdown; thus, children have been continuing their studies at home. Imagine how difficult it is to be a parent during this period.
