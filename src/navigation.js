@@ -2,8 +2,8 @@ import React from 'react';
 import { Route, Routes, Link } from "react-router-dom";
 import './css/global.css';
 import Home from './home';
-// import Lessons from './lessons';
-import App from './App';
+import Lessons from './lessons';
+// import App from './App';
 import House from './assets/icons/home.svg';
 import Pencil from './assets/icons/lessons.svg';
 
@@ -27,7 +27,8 @@ export default function Navigation() {
                 </Link>
                 <Routes>
                 <Route path="/" element={<Home />} /> 
-                    <Route path="/lessons" element={<App />} /> 
+                    {/* <Route path="/lessons" element={<App />} />  */}
+                    <Route path="/lessons" element={<Lessons />} /> 
                 </Routes>
             </ul>
         </nav>
