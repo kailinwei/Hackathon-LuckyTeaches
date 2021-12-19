@@ -1,6 +1,8 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import './css/global.css';
+// import Lessons from './lessons';
+import App from './App';
 import Home from './assets/icons/home.svg';
 import Pencil from './assets/icons/lessons.svg';
 
@@ -19,12 +21,14 @@ export default function Navigation() {
                         </button>
                     </Link>
                 </li>
-                <li key="lessons">
-                    <Link to="/lessons">
+                <Link to="/lessons">
+                    <li key="lessons">
                         <img src={Pencil} alt="A shiny golden pencil icon." />
-                    </Link>
-
-                </li>
+                    </li>
+                </Link>
+                <Routes>
+                    <Route path="/lessons" element={<App />} /> 
+                </Routes>
             </ul>
         </nav>
     );

@@ -1,4 +1,5 @@
-body {
+#index {
+    height: 100vh;
     background-image: url('../assets/images/backgrounds/bedroom.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +8,7 @@ body {
 .center {
     display: flex;
     justify-content: center;
-    margin-top: 30%;
+    padding-top: 30%;
 }
 
 #lucky {

@@ -9,11 +9,13 @@ import Lucky from './assets/images/lucky/reading.svg';
 
 ReactDOM.render(
   <Router>
-    <div className="center">
+    <div id='index'>
+    <div className='center'>
       <img id="lucky" src={Lucky} alt="Lucky the corgi reading a book." />
     </div>
     <Message />
     <Navigation />
+    </div>
   </Router>,
   document.getElementById('root')
 );

@@ -5,7 +5,7 @@ import './css/message.css';
 let introduction = false;
 let index = 0;
 
-const texts = [`I'm Lucky`, `Touch the pencil icon to learn with me!`,]
+const texts = [`I'm Lucky`, `I'm so excited to learn something cool.`,]
 
 
 
@@ -34,8 +34,13 @@ export default class Message extends Component {
         this.setState({
             text: texts[index]
         })
-        
-        index = index + 1;
+        if (index !== texts.length) {
+            index = index + 1;
+        } else (
+            this.setState({
+                text: `Touch the pencil icon to learn with me!`
+            })
+        )
     }
     render() {
         return(
