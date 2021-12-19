@@ -16,7 +16,6 @@ export class Wash extends Component {
   nextStep = (n) => {
     const length = washStepData.length;
     if (i < length) {
-      console.log(washStepData[i]);
       this.setState({
         instruction: washStepData[(i = i +1)].instruction,
         media: washStepData[(i)].media,

@@ -6,6 +6,7 @@ import Lessons from './lessons';
 // import App from './App';
 import House from './assets/icons/home.svg';
 import Pencil from './assets/icons/lessons.svg';
+import Wash from './App';
 
 export default function Navigation() {
     return (
@@ -20,15 +21,15 @@ export default function Navigation() {
                             <img className="icons" src={House} alt="A shiny golden home icon."/>
                         </li>
                     </Link>
-                <Link to="/lessons">
+                <Link to="/lessons/">
                     <li key="lessons">
                         <img className="icons" src={Pencil} alt="A shiny golden pencil icon." />
                     </li>
                 </Link>
                 <Routes>
-                <Route path="/" element={<Home />} /> 
-                    {/* <Route path="/lessons" element={<App />} />  */}
-                    <Route path="/lessons" element={<Lessons />} /> 
+                    <Route exact path="/" element={<Home />} /> 
+                    <Route path="/lessons/" element={<Lessons />} /> 
+                    <Route path="/wash_our_hands" element={<Wash />} /> 
                 </Routes>
             </ul>
         </nav>
