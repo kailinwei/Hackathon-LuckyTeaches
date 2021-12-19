@@ -21,7 +21,7 @@ export default class Message extends Component {
         }
         if (introduction) {
             return (
-                <p>I'm having such an awesome time!</p>
+                <p>{texts[texts.length]}</p>
             )
         }
     }
