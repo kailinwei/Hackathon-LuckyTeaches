@@ -1,8 +1,8 @@
-body {
+/* body {
     background-image: url('../assets/images/backgrounds/bedroom.svg');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .center {
     display: flex;

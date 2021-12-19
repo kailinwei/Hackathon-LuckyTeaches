@@ -1,4 +1,4 @@
-import './App.css';
+//import './App.css';
 import {Wash} from './Wash';
 
 function App() {
