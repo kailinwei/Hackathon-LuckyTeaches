@@ -1,4 +1,5 @@
 import React from "react";
+import './css/wash.css';
 import { Component } from "react";
 import { washStepData } from "./data";
 
@@ -29,18 +30,18 @@ export class Wash extends Component {
     return (
       <>
         <div className="WashContainer">
-          <h1>{this.state.instruction}</h1>
-          <img src={this.state.media}></img>
+          <p>{this.state.instruction}</p>
+          <img className="washImg" src={this.state.media} alt="Lots of bubbles being lathered on a pair of hands."></img>
+  
           <iframe
-            width="560"
-            height="315"
+            width="50vw"
+            height="50vh"
             src={this.state.video}
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
           ></iframe>
-          <img src="/images/finger.svg" onClick={() => this.nextStep()}></img>
+          <img className="fingerImg" alt="A hand with the pointer finger sticking out" src="/images/finger.svg" onClick={() => this.nextStep()}></img>
         </div>
       </>
     );

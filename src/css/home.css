@@ -1,8 +1,12 @@
 #index {
-    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 375px;
+    height: 812px;
     background-image: url('../assets/images/backgrounds/bedroom.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -5;
 }
 
 .center {

@@ -1,0 +1,25 @@
+.WashContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     padding: 1vh;
+}
+
+.p{
+    text-align: center;
+    width:360px;
+    height:90px;
+}
+
+img.washImg{
+width:300px;
+height:400px;
+border-radius: 50px;
+}
+
+
+img.fingerImg{
+    width:100px;
+    height:100px;
+ }

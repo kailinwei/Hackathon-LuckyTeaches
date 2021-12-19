@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route, Routes, Link } from "react-router-dom";
 import './css/global.css';
+import Home from './home';
 // import Lessons from './lessons';
 import App from './App';
-import Home from './assets/icons/home.svg';
+import House from './assets/icons/home.svg';
 import Pencil from './assets/icons/lessons.svg';
 
 export default function Navigation() {
@@ -16,9 +17,9 @@ export default function Navigation() {
             <ul id="navigation">
                 <li key="home">
                     <Link to="/">
-                        <button onClick={() => window.location.reload()}>
-                            <img src={Home} alt="A shiny golden home icon."/>
-                        </button>
+                        <li key="home">
+                            <img src={House} alt="A shiny golden home icon."/>
+                        </li>
                     </Link>
                 </li>
                 <Link to="/lessons">
@@ -27,6 +28,7 @@ export default function Navigation() {
                     </li>
                 </Link>
                 <Routes>
+                <Route path="/" element={<Home />} /> 
                     <Route path="/lessons" element={<App />} /> 
                 </Routes>
             </ul>
