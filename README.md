@@ -21,6 +21,8 @@ Although parents may want to provide their children with more support to facilit
 - React
 - Express.js
 - Node.js
+- Prettier
+- ESlint
 
 ## 👋 Team
 Linda Ngoc Nguyen
